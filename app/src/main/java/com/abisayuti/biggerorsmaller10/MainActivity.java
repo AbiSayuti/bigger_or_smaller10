@@ -34,9 +34,9 @@ public class MainActivity extends AppCompatActivity {
                     etinput.setError("tidak boleh kosong");
 
                 }else if (anomor >= 10) {
-                    txtHasil.setText("smaller than 10");
-                }else if(anomor <= 10) {
                     txtHasil.setText("bigger than 10");
+                }else {
+                    txtHasil.setText("smaller than 10");
                 }
 
 
